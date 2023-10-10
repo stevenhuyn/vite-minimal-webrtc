@@ -7,7 +7,8 @@
     "wasm": "wasm-pack build ./matchbox_client --target web",
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "cd matchbox_server && cargo run"
   },
   "devDependencies": {
     "typescript": "^5.0.2",
